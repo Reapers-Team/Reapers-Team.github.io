@@ -15,9 +15,6 @@ clearButton.addEventListener('click', clearCanvas);
 
 let draw_color = "gold";
 
-// function change-color{
-//  <div onclick="change_color(this)" class="color-field" style="background: red;"></div>
-// }
 
 function change_color(element) {
     draw_color=element.style.background;
